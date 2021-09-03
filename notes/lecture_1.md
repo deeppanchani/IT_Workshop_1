@@ -1,6 +1,6 @@
 # Lecture: 1
 ## Topic: Basic Commands
-## Date: 5 Aug 2021
+## Date: 30 Jul 2021
 
 ### `cal` Command
 `cal` command is used to print the calander of the current month.
@@ -130,10 +130,22 @@ date +%T
 <img src="/images/fig_1.12.png">
 
 ### `bc` command: Calculator
+It is the calculator command in shell. Here we can excevute mathematical equations. As done in the example:
+<img src="/images/fig_1.13.png">
+
+We can even execute multiple expressions by seperating them wit ';' and the shell with give output of each expression in newline.
+<img src="/images/fig_1.14.png">
+
+To return back to terminal you can either type `quit` or press ctrl+d.
 ### `passwd` command: Calculator
+
+`passwd` command used to change the user login password for the system.
+<img src="/images/fig_1.15.png">
+
 ### `who` command: Calculator
+
 ### `pwd` command: Calculator
+
 ### `mkdir` command: Calculator
+
 ### `cd` command: Calculator
-
-
