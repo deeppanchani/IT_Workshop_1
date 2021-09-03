@@ -130,10 +130,10 @@ date +%T
 <img src="/images/fig_1.12.png">
 
 ### `bc` command: Calculator
-### `passwd` command: Calculator
-### `who` command: Calculator
-### `pwd` command: Calculator
-### `mkdir` command: Calculator
-### `cd` command: Calculator
+### `passwd` command
+### `who` command
+### `pwd` command
+### `mkdir` command
+### `cd` command
 
 
