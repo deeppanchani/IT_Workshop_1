@@ -131,21 +131,34 @@ date +%T
 
 ### `bc` command: Calculator
 It is the calculator command in shell. Here we can excevute mathematical equations. As done in the example:
+
 <img src="/images/fig_1.13.png">
 
 We can even execute multiple expressions by seperating them wit ';' and the shell with give output of each expression in newline.
+
 <img src="/images/fig_1.14.png">
 
 To return back to terminal you can either type `quit` or press ctrl+d.
 ### `passwd` command: Calculator
 
-`passwd` command used to change the user login password for the system.
+**passwd** command used to change the user login password for the system.
+
 <img src="/images/fig_1.15.png">
 
 ### `who` command: Calculator
 
+**who** command displays all the users logged in to the system.
+
+<img src="/images/fig_1.16.png">
+
 ### `pwd` command: Calculator
 
+**pwd** command is used to see the path of current working directory. 
+
+<img src="/images/fig_1.16.png">
+
 ### `mkdir` command: Calculator
+
+
 
 ### `cd` command: Calculator
