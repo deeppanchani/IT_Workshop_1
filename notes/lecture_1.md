@@ -139,26 +139,56 @@ We can even execute multiple expressions by seperating them wit ';' and the shel
 <img src="/images/fig_1.14.png">
 
 To return back to terminal you can either type `quit` or press ctrl+d.
-### `passwd` command: Calculator
+### `passwd` command
 
 **passwd** command used to change the user login password for the system.
 
 <img src="/images/fig_1.15.png">
 
-### `who` command: Calculator
+### `who` command
 
 **who** command displays all the users logged in to the system.
 
 <img src="/images/fig_1.16.png">
 
-### `pwd` command: Calculator
+### `pwd` command
 
 **pwd** command is used to see the path of current working directory. 
 
-<img src="/images/fig_1.16.png">
+<img src="/images/fig_1.17.png">
 
-### `mkdir` command: Calculator
+### `mkdir` command
+mkdir = make + directory.
 
+mkdir command is used to make new directory.
 
+<img src="/images/fig_1.18.png">
 
-### `cd` command: Calculator
+You can make more than one directories at a time also.
+
+<img src="/images/fig_1.19.png">
+
+### `cd` command
+cd = change + directory
+
+cd command is used to move forward and backward in the file directory.
+
+```bash
+cd path_where_you_want_to_go
+```
+
+we can go to the parent directory with the command.
+```bash
+cd ..
+```
+
+<img src="/images/fig_1.20.png">
+
+### `rmdir` command: Calculator
+rmdir = remove + directory.
+
+rmdir command is used remove empty directory.
+
+<img src="/images/fig_1.21.png">
+
+We are not able to delete test because it was not an empty directory. But once we deleted test1 we were able to delete test.
