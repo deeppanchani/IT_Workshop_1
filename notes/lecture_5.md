@@ -75,10 +75,11 @@ The Linux operating system's architecture mainly contains some of the components
 
 4. **Hardware layer:-** Linux operating system contains a hardware layer that consists of several peripheral devices like CPU, HDD, and RAM.
 
-5. **Shell:-** It is an interface among the kernel and user. It can afford the services of kernel. It can take commands through the user and runs the functions of the kernel. The shell is available in distinct types of OSes. These operating systems are categorized into two different types, which are the graphical shells and command-line shells.
+5. **Shell:-** It is an **interface among the kernel and user**. It can afford the services of kernel. It can take commands through the user and runs the functions of the kernel. 
+    
+    The shell is available in distinct types of OSes. These **operating systems are categorized into two different types**, which are the **graphical shells** and **command-line shells**.
 
-
-    The graphical line shells facilitate the graphical user interface, while the command line shells facilitate the command line interface. Thus, both of these shells implement operations. However, the graphical user interface shells work slower as compared to the command-line interface shells.
+    However, the graphical user interface shells work slower as compared to the command-line interface shells.
 
     There are a few types of these shells which are categorized as follows:
     1. Korn shell
@@ -87,6 +88,21 @@ The Linux operating system's architecture mainly contains some of the components
     1. POSIX shell
 #### Types of Shells
 
+In Unix, there are two major types of shells:
+
+1. Bourne shell - If you are using Bourne-type shell, the $ character is the default prompt.
+2. C Shell - If you are using a C-type chell, the % character is default prompt.
+
+Usually Bourne shell are faster than C-Type.(Not always)
+
+Bourne shell has the following subcategories:
+- **Bourne shell(sh)**: 1st version of Bourne shell. It didn't had capability to see history of commands and even we can't use simple arithmetic and logical commands.
+- **Korn shell (ksh)**: It is a Superset of sh.
+- **Bourne Again shell (bash)**: It cover all features of ksh.
+
+ksh and bash are faster than C-type Shell.
+
 The different C-type shells follow-
-- C shell(csh)
-- 
+As the name suggest they have C like Programming features. 
+- **C shell(csh)**: It also has arithmetic and logical command support but it dosnt have the faclity to see history of commands.
+- **TENEX/TOPS C shell(tcsh)**: It is an extension of csh. It is a command line interpreter, command line editor, spell correction, shell scripts. 
