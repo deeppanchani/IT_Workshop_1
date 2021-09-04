@@ -46,7 +46,7 @@ tail -n 3 [FILE]
 ```
 This command will print only last 3 lines of the FILE.
 
-<img src="/images/fig_5.3.png">
+<img src="/images/fig_5.5.png">
 
 ### Introduction to Shell Scripting
 
@@ -86,6 +86,7 @@ The Linux operating system's architecture mainly contains some of the components
     1. Bourne shell
     1. C shell
     1. POSIX shell
+
 #### Types of Shells
 
 In Unix, there are two major types of shells:
@@ -106,3 +107,33 @@ The different C-type shells follow-
 As the name suggest they have C like Programming features. 
 - **C shell(csh)**: It also has arithmetic and logical command support but it dosnt have the faclity to see history of commands.
 - **TENEX/TOPS C shell(tcsh)**: It is an extension of csh. It is a command line interpreter, command line editor, spell correction, shell scripts. 
+
+##### How to check all the installed Shells
+
+```bash
+cat /etc/shells
+```
+<img src="/images/fig_5.6.png">
+
+##### How to check current shell Shells
+
+```bash
+grep {username} /etc/passwd
+```
+<img src="/images/fig_5.7.png">
+
+##### How to change current shell
+
+```bash
+chsh -s {shell-name} {user-name}
+```
+<img src="/images/fig_5.8.png">
+<br>
+<img src="/images/fig_5.9.png">
+
+#### Shell Script
+
+- When a group of commands have to be executed regularly, they should be stored in a file.
+- The file itself can be executed as a shell script or shell program.
+- Shell scripts are executed in a separated child shell process.
+- This sub-shell need not be of the same type as your login.
